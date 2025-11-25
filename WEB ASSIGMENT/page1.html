@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hobbies Page - BIT315 Web Development Assignment">
+    <title>Hobbies - Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Student Portfolio</h1>
+            <div class="welcome-message">
+                <span id="dateTime"></span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="nav-container">
+            <button class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+            <li><a href="home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Academic Results</a>
+                <ul class="dropdown-menu">
+                    <li><a href="year1.html">Year 1 Results</a></li>
+                    <li><a href="year2.html">Year 2 Results</a></li>
+                    <li><a href="year3.html">Year 3 Results</a></li>
+                    <li><a href="year4.html">Year 4 Results</a></li>
+                </ul>
+            </li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="page1.html" class="active">Hobbies</a></li>
+            <li><a href="page2.html">Career Goals</a></li>
+            <li><a href="index.html" class="logout-btn">Logout</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="extra-page-section">
+            <h2>My Hobbies & Interests</h2>
+
+            <div class="hobby-container">
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="images/coding.jpg" alt="Coding">
+                    </div>
+                    <div class="hobby-content">
+                        <h3>Coding & Programming</h3>
+                        <p>
+                            I am passionate about coding and enjoy learning new programming languages
+                            and frameworks. In my free time, I work on personal projects, contribute
+                            to open-source software, and participate in coding challenges on platforms
+                            like HackerRank and LeetCode.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="images/reading.jpg" alt="Reading">
+                    </div>
+                    <div class="hobby-content">
+                        <h3>Reading</h3>
+                        <p>
+                            I love reading books, especially those related to technology, self-improvement,
+                            and science fiction. Some of my favorite books include "Clean Code" by Robert Martin,
+                            "The Pragmatic Programmer," and various tech blogs and documentation.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="images/music.jpg" alt="Music">
+                    </div>
+                    <div class="hobby-content">
+                        <h3>Music</h3>
+                        <p>
+                            Music is an important part of my life. I enjoy Sound Engineering. I also play the guitar
+                            and often use music to relax after long study sessions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <section class="multimedia-section">
+                <h3>Listen to My Favorite Study Playlist</h3>
+                <div class="audio-container">
+                    <audio controls>
+                        <source src="audio/study-music.mp3" type="audio/mpeg">
+                        <source src="audio/study-music.ogg" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <p class="audio-description">
+                    This relaxing instrumental music helps me focus during my study sessions.
+                </p>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Student Portfolio. University of Lusaka - BIT315 Assignment</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            updateDateTime();
+            setInterval(updateDateTime, 1000);
+        });
+    </script>
+</body>
+</html>

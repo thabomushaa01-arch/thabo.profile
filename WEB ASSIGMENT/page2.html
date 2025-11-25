@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Career Goals Page - BIT315 Web Development Assignment">
+    <title>Career Goals - Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Student Portfolio</h1>
+            <div class="welcome-message">
+                <span id="dateTime"></span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="nav-container">
+            <button class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+            <li><a href="home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Academic Results</a>
+                <ul class="dropdown-menu">
+                    <li><a href="year1.html">Year 1 Results</a></li>
+                    <li><a href="year2.html">Year 2 Results</a></li>
+                    <li><a href="year3.html">Year 3 Results</a></li>
+                    <li><a href="year4.html">Year 4 Results</a></li>
+                </ul>
+            </li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="page1.html">Hobbies</a></li>
+            <li><a href="page2.html" class="active">Career Goals</a></li>
+            <li><a href="index.html" class="logout-btn">Logout</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="extra-page-section">
+            <h2>My Career Goals & Aspirations</h2>
+
+            <div class="career-intro">
+                <img src="images/career.jpg" alt="Career Goals">
+                <p>
+                    As an Information Technology student nearing graduation, I have clear career objectives
+                    that align with my passion for technology and innovation. My goal is to become
+                    a skilled software engineer who contributes to meaningful projects that impact society positively.
+                </p>
+            </div>
+
+            <div class="goals-timeline">
+                <h3>My Career Roadmap</h3>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">1</div>
+                        <div class="timeline-content">
+                            <h4>Short-term Goal (1-2 Years)</h4>
+                            <p>
+                                Secure a position as a Junior Software Developer at a reputable tech company
+                                in Zambia. Focus on gaining hands-on experience in full-stack web development
+                                and building a strong professional network.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">2</div>
+                        <div class="timeline-content">
+                            <h4>Medium-term Goal (3-5 Years)</h4>
+                            <p>
+                                Advance to a Senior Developer role and specialize in cloud computing
+                                and artificial intelligence. Obtain relevant certifications such as AWS
+                                Solutions Architect and pursue a Master's degree in Computer Science.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">3</div>
+                        <div class="timeline-content">
+                            <h4>Long-term Goal (5-10 Years)</h4>
+                            <p>
+                                Establish my own technology startup focused on creating innovative solutions
+                                for African markets. I want to contribute to the digital transformation
+                                of Zambia and create employment opportunities for young tech enthusiasts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <section class="skills-section">
+                <h3>Skills I'm Developing</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript/TypeScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">React/Vue.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Database Management</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 82%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Cloud Computing</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Student Portfolio. University of Lusaka - BIT315 Assignment</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            updateDateTime();
+            setInterval(updateDateTime, 1000);
+        });
+    </script>
+</body>
+</html>

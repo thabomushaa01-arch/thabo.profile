@@ -1,0 +1,117 @@
+========================================
+BIT315 PORTFOLIO - QUICK START
+========================================
+
+✓ YOUR WEBSITE IS READY!
+
+Location: E:\BIT315_Portfolio
+
+========================================
+LOGIN CREDENTIALS:
+========================================
+
+Username: Any 4+ characters (try "admin" or "student")
+Password: Any 6+ characters (try "password" or "123456")
+
+NOTE: This is front-end validation only!
+
+========================================
+TO GET IMAGES (Choose ONE method):
+========================================
+
+METHOD 1 - FASTEST (Use Placeholder Images):
+--------------------------------------------
+1. Open "create-placeholders.html" in your browser
+2. Click each download button
+3. Save ALL images to the "images" folder
+4. Done! Your website will work with colorful placeholders
+
+METHOD 2 - BEST QUALITY (Download Free HD Photos):
+--------------------------------------------
+Visit these FREE websites:
+- https://unsplash.com
+- https://pexels.com
+- https://pixabay.com
+
+Search for and download:
+
+In images/ folder:
+  ✓ favicon.svg (ALREADY DONE!)
+  ☐ profile.jpg - "professional headshot student"
+  ☐ slide1.jpg - "university campus building"
+  ☐ slide2.jpg - "modern library interior"
+  ☐ slide3.jpg - "computer lab students"
+  ☐ slide4.jpg - "graduation ceremony"
+  ☐ slide5.jpg - "students studying together"
+  ☐ coding.jpg - "person coding laptop"
+  ☐ reading.jpg - "person reading book"
+  ☐ music.jpg - "acoustic guitar"
+  ☐ career.jpg - "professional workspace office"
+
+METHOD 3 - PERSONAL (Use Your Own Photos):
+--------------------------------------------
+Use your actual photos and save to images/ folder
+Recommended sizes shown above
+
+========================================
+VIDEOS & AUDIO (For Full Marks):
+========================================
+
+In videos/ folder:
+  ☐ tutorial.mp4 - Record yourself showing how to use the website
+  ☐ inspiration.mp4 - Any tech/motivational video
+
+In audio/ folder:
+  ☐ study-music.mp3 - Any instrumental background music
+
+Free Resources:
+- Screen recording: OBS Studio, Windows Game Bar (Win+G)
+- Free music: bensound.com, freemusicarchive.org
+
+NOTE: Website works WITHOUT these, but you need them for 100%!
+
+========================================
+TO TEST YOUR WEBSITE:
+========================================
+
+1. Open: E:\BIT315_Portfolio\index.html
+2. Login with credentials above
+3. Navigate through all pages
+4. Check slideshow, dropdown menu, tables
+5. Test on phone/tablet (responsive design)
+
+========================================
+ASSIGNMENT CHECKLIST:
+========================================
+
+✓ All HTML pages created (9 files)
+✓ CSS styling with responsiveness
+✓ JavaScript functionality
+✓ Login with validation
+✓ Navigation with dropdown
+✓ Slideshow with auto-rotation
+✓ Date/time display
+✓ Results tables with styling
+✓ Favicon included
+
+☐ Add images (use placeholder generator!)
+☐ Add tutorial video
+☐ Add inspiration video
+☐ Add audio file
+
+========================================
+TO SUBMIT:
+========================================
+
+1. Add your images/videos/audio
+2. Test everything works
+3. Zip the entire BIT315_Portfolio folder
+4. Submit the zip file
+
+The website MUST work offline!
+
+========================================
+
+Questions? Check README.txt for detailed info.
+
+Good luck! 🎓
